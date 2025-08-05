@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body data-page="checkout.html">
+  <div id="navbar-placeholder"></div>
+  <div class="container my-5">
+    <h2 class="mb-4 text-center">Checkout</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="checkout-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" id="address" rows="2" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success w-100">Place Order</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>Order Summary</h5>
+        <div id="order-summary"></div>
+      </div>
+    </div>
+    <div id="confirmation-message" class="alert alert-success mt-4 d-none text-center"></div>
+  </div>
+  <script src="fetch-navbar.js"></script>
+  <script src="cart.utils.js"></script>
+  <script src="checkout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

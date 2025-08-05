@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="fetch.footer.js" defer></script>
+
+</head>
+<body data-page="home">
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- section-1 -->
+
+    <main class="flex-grow-1">
+    <section class="hero-banner d-flex align-items-center text-white text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold">Discover Your Style</h1>
+            <p class="lead mb-4">Shop the latest trends in fashion, electronics, and more at unbeatable prices.</p>
+            <a href="products.html" class="btn btn-light btn-lg px-4 rounded-pill">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- section-2 -->
+
+  <section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Shop by Category</h2>
+    <div class="row g-4">
+        <!-- Card 1 -->
+      <div class="col-6 col-md-3">
+        <a href="products.html?category=fashion" class="text-decoration-none text-dark">
+        <div class="category-card card border-0 shadow-sm overflow-hidden">
+          <img src="https://plus.unsplash.com/premium_photo-1690406382383-3827c1397c48?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-fluid" alt="Fashion">
+          <div class="card-body text-center">
+            <h5 class="card-title">Fashion</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 2 -->
+       <div class="col-6 col-md-3">
+        <a href="products.html?category=electronics" class="text-decoration-none text-dark">
+        <div class="category-card card border-0 shadow-sm overflow-hidden">
+          <img src="https://plus.unsplash.com/premium_photo-1663040598592-9f3e311f9841?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fDE4MDBweCUyMGVsZWN0cm9uaWNzfGVufDB8fDB8fHww" class="card-img-top img-fluid" alt="Electronics">
+          <div class="card-body text-center">
+            <h5 class="card-title">Electronics</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-6 col-md-3">
+        <a href="products.html?category=home" class="text-decoration-none text-dark">
+        <div class="category-card card border-0 shadow-sm overflow-hidden">
+          <img src="https://plus.unsplash.com/premium_photo-1675615667752-2ccda7042e7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8MTgwMHB4JTIwaG9tZSUyMGRlY29yYXRpb258ZW58MHx8MHx8fDA%3D" class="card-img-top img-fluid" alt="Home Decor">
+          <div class="card-body text-center">
+            <h5 class="card-title">Home Decor</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-6 col-md-3">
+        <a href="products.html?category=gaming" class="text-decoration-none text-dark">
+        <div class="category-card card border-0 shadow-sm overflow-hidden">
+          <img src="https://media.istockphoto.com/id/1388729121/photo/close-up-hands-playing-video-game-young-pretty-woman-sitting-on-sofa-holding-joystick-in.webp?a=1&b=1&s=612x612&w=0&k=20&c=7JO3B8y9R1fL66n6a5rQynbhc05q5WjQ-DWfFY53qlI=" class="card-img-top img-fluid" alt="Gaming">
+          <div class="card-body text-center">
+            <h5 class="card-title">Gaming</h5>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section-3 -->
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Featured Products</h2>
+    <div class="row g-4">
+      
+      <!-- Product Card 1 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+          <span class="badge bg-danger position-absolute top-0 start-0 m-2">Sale</span>
+          <img src="https://images.unsplash.com/photo-1709258228137-19a8c193be39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fDE4MDBweCUyMHJ1bm5pbmclMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D" class="sec3-imgs" alt="Running Shoes" 
+          data-title="Running Shoes"
+         data-desc="Comfortable & stylish sneakers"
+         data-price="$49.99"
+         data-img="https://images.unsplash.com/photo-1709258228137-19a8c193be39?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fDE4MDBweCUyMHJ1bm5pbmclMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D"
+         onclick="openQuickView(this)">
+          <div class="card-body text-center">
+            <h5 class="card-title">Running Shoes</h5>
+            <p class="card-text text-muted small">Comfortable & stylish sneakers</p>
+            <p class="fw-bold mb-2">$49.99</p>
+            <div class="d-flex justify-content-center gap-3">
+              <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+              <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+              <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+          <span class="badge bg-success position-absolute top-0 start-0 m-2">New</span>
+          <img src="https://plus.unsplash.com/premium_photo-1679913891276-ac874f22773f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fDE4MDBweCUyMGJsdWV0b290aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" class="sec3-imgs"  alt="Bluetooth Headphones"
+          data-title="Bluetooth Headphones"
+              data-desc="High-quality sound & long battery"
+              data-price="$79.99"
+              data-img="https://plus.unsplash.com/premium_photo-1679913891276-ac874f22773f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fDE4MDBweCUyMGJsdWV0b290aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D"
+              onclick="openQuickView(this)">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bluetooth Headphones</h5>
+            <p class="card-text text-muted small">High-quality sound & long battery</p>
+            <p class="fw-bold mb-2">$79.99</p>
+            <div class="d-flex justify-content-center gap-3">
+              <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+              <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+              <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">Hot</span>
+    <img src="https://images.unsplash.com/photo-1654208398202-1edef1cf23b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fDE4MDBweCUyMHNtYXJ0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D" class="sec3-imgs"
+    alt="Smart Watch"
+     data-title="Smart Watch"
+     data-desc="Fitness tracking & stylish design"
+     data-price="$59.99"
+     data-img="https://images.unsplash.com/photo-1654208398202-1edef1cf23b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fDE4MDBweCUyMHNtYXJ0JTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D"
+     onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Smart Watch</h5>
+      <p class="card-text text-muted small">Fitness tracking & stylish design</p>
+      <p class="fw-bold mb-2">$59.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 4 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-primary position-absolute top-0 start-0 m-2">Popular</span>
+    <img src="https://images.unsplash.com/photo-1622560482357-789dc8a50923?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fDE4MDBweCUyMHN0eWxpc2glMjBiYWNrcGFja3xlbnwwfHwwfHx8MA%3D%3D" class="sec3-imgs" alt="Backpack"
+    data-title="Stylish Backpack"
+     data-desc="Durable & spacious for daily use"
+     data-price="$34.99"
+     data-img="https://images.unsplash.com/photo-1622560482357-789dc8a50923?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fDE4MDBweCUyMHN0eWxpc2glMjBiYWNrcGFja3xlbnwwfHwwfHx8MA%3D%3D"
+     onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Stylish Backpack</h5>
+      <p class="card-text text-muted small">Durable & spacious for daily use</p>
+      <p class="fw-bold mb-2">$34.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 5 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-info text-dark position-absolute top-0 start-0 m-2">Trending</span>
+    <img src="https://images.unsplash.com/photo-1733154286760-751f2ac81335?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sec3-imgs" alt="Sunglasses"
+    data-title="Classic Sunglasses"
+     data-desc="UV protection & timeless style"
+     data-price="$24.99"
+     data-img="https://images.unsplash.com/photo-1733154286760-751f2ac81335?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+     onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Classic Sunglasses</h5>
+      <p class="card-text text-muted small">UV protection & timeless style</p>
+      <p class="fw-bold mb-2">$24.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 6 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-secondary position-absolute top-0 start-0 m-2">Limited</span>
+    <img src="https://images.unsplash.com/photo-1589363357779-0cad84c44c07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI0fHwxODAwcHglMjBsZWF0aGVyJTIwd2FsbGV0fGVufDB8fDB8fHww" class="sec3-imgs" alt="Leather Wallet"
+    data-title="Leather Wallet"
+     data-desc="Premium leather, multiple slots"
+     data-price="$29.99"
+     data-img="https://images.unsplash.com/photo-1589363357779-0cad84c44c07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjI0fHwxODAwcHglMjBsZWF0aGVyJTIwd2FsbGV0fGVufDB8fDB8fHww"
+     onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Leather Wallet</h5>
+      <p class="card-text text-muted small">Premium leather, multiple slots</p>
+      <p class="fw-bold mb-2">$29.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+                <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+              </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 7 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-info position-absolute top-0 start-0 m-2">New</span>
+    <img src="https://images.unsplash.com/photo-1687511968900-7418e0fdc532?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8MTgwMHB4JTIwY29vbCUyMHNuZWFrZXJzfGVufDB8fDB8fHww" 
+         class="sec3-imgs" alt="Sneakers"
+         data-title="Cool Sneakers"
+         data-desc="Trendy sneakers for casual wear"
+         data-price="$59.99"
+         data-img="https://images.unsplash.com/photo-1687511968900-7418e0fdc532?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8MTgwMHB4JTIwY29vbCUyMHNuZWFrZXJzfGVufDB8fDB8fHww"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Cool Sneakers</h5>
+      <p class="card-text text-muted small">Trendy sneakers for casual wear</p>
+      <p class="fw-bold mb-2">$59.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 8 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-success position-absolute top-0 start-0 m-2">Top Rated</span>
+    <img src="https://images.unsplash.com/photo-1719075596884-2020f827a8dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTgwMHB4JTIwZml0bmVzcyUyMHNtYXJ0d2F0Y2h8ZW58MHx8MHx8fDA%3D"
+         class="sec3-imgs" alt="Smartwatch"
+         data-title="Fitness Smartwatch"
+         data-desc="Track workouts, steps, heart rate & more"
+         data-price="$89.99"
+         data-img="https://images.unsplash.com/photo-1719075596884-2020f827a8dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTgwMHB4JTIwZml0bmVzcyUyMHNtYXJ0d2F0Y2h8ZW58MHx8MHx8fDA%3D"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Fitness Smartwatch</h5>
+      <p class="card-text text-muted small">Track workouts, steps, heart rate & more</p>
+      <p class="fw-bold mb-2">$89.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 9 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-danger position-absolute top-0 start-0 m-2">Sale</span>
+    <img src="https://plus.unsplash.com/premium_photo-1678481760835-a49a3f85a83b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8MTgwMHB4JTIwdHJhdmVsJTIwYmFja3BhY2t8ZW58MHx8MHx8fDA%3D"
+         class="sec3-imgs" alt="Backpack"
+         data-title="Travel Backpack"
+         data-desc="Lightweight & durable for all adventures"
+         data-price="$39.99"
+         data-img="https://plus.unsplash.com/premium_photo-1678481760835-a49a3f85a83b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8MTgwMHB4JTIwdHJhdmVsJTIwYmFja3BhY2t8ZW58MHx8MHx8fDA%3D"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Travel Backpack</h5>
+      <p class="card-text text-muted small">Lightweight & durable for all adventures</p>
+      <p class="fw-bold mb-2">$39.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 10 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-primary position-absolute top-0 start-0 m-2">Featured</span>
+    <img src="https://images.unsplash.com/photo-1617775047746-5b36a40109f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fDE4MDBweCUyMHdpcmVsZXNzJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+         class="sec3-imgs" alt="Wireless Speaker"
+         data-title="Wireless Speaker"
+         data-desc="Crystal clear sound and bass boost"
+         data-price="$54.99"
+         data-img="https://images.unsplash.com/photo-1617775047746-5b36a40109f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fDE4MDBweCUyMHdpcmVsZXNzJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Wireless Speaker</h5>
+      <p class="card-text text-muted small">Crystal clear sound and bass boost</p>
+      <p class="fw-bold mb-2">$54.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Card 11 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-dark text-light position-absolute top-0 start-0 m-2">Limited</span>
+    <img src="https://images.unsplash.com/photo-1581803274668-261faa12dca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fDE4MDBweCUyMGxlYXRoZXIlMjBib290c3xlbnwwfHwwfHx8MA%3D%3D"
+         class="sec3-imgs" alt="Leather Boots"
+         data-title="Leather Boots"
+         data-desc="Stylish and durable premium leather boots"
+         data-price="$99.99"
+         data-img="https://images.unsplash.com/photo-1581803274668-261faa12dca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fDE4MDBweCUyMGxlYXRoZXIlMjBib290c3xlbnwwfHwwfHx8MA%3D%3D"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">Leather Boots</h5>
+      <p class="card-text text-muted small">Stylish and durable premium leather boots</p>
+      <p class="fw-bold mb-2">$99.99</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- Product Card 12 -->
+<div class="col-6 col-md-4 col-lg-3">
+  <div class="card border-0 shadow-sm position-relative h-100 overflow-hidden">
+    <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">Hot Deal</span>
+    <img src="https://images.unsplash.com/photo-1565090339400-00e1b6b05e99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fDE4MDBweCUyMGRzbHIlMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D"
+         class="sec3-imgs" alt="DSLR Camera"
+         data-title="DSLR Camera"
+         data-desc="Capture perfect moments with high clarity"
+         data-price="$449.00"
+         data-img="https://images.unsplash.com/photo-1565090339400-00e1b6b05e99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fDE4MDBweCUyMGRzbHIlMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D"
+         onclick="openQuickView(this)">
+    <div class="card-body text-center">
+      <h5 class="card-title">DSLR Camera</h5>
+      <p class="card-text text-muted small">Capture perfect moments with high clarity</p>
+      <p class="fw-bold mb-2">$449.00</p>
+      <div class="d-flex justify-content-center gap-3">
+        <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn"><i class="bi bi-cart-plus"></i></button>
+        <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn"><i class="bi bi-heart"></i></button>
+        <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="openQuickView(this.closest('.card').querySelector('img'))">
+          <i class="bi bi-eye"></i> <span class="d-none d-lg-inline">Quick View</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <!-- Modal -->
+    <!-- Quick View Modal (matches products.html) -->
+  <div class="modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quickViewLabel">Quick View</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex flex-column flex-md-row">
+          <img id="quickViewImg" src="" alt="Product Image" class="img-fluid rounded shadow-sm w-100 w-md-75 w-lg-50 mx-auto mb-3 mb-md-0" style="max-height: 300px; object-fit: contain;">
+          <div>
+            <h4 id="quickViewTitle">Product Title</h4>
+            <p id="quickViewDesc" class="text-muted">Product description goes here.</p>
+            <p class="fw-bold" id="quickViewPrice">$49.99</p>
+            <div class="d-flex justify-content-center gap-3">
+              <button class="btn btn-sm btn-outline-dark rounded-pill add-to-cart-btn-modal"><i class="bi bi-cart-plus"></i></button>
+              <button class="btn btn-sm btn-outline-danger rounded-pill add-to-wishlist-btn-modal"><i class="bi bi-heart"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body" id="toast-body">
+      Product added to cart!
+    </div>
+  </div>
+</div>
+
+
+
+
+    <!-- scripts -->
+     
+    <script src="fetch-navbar.js" defer></script>
+     <script src="cart.utils.js"></script>
+     <script src="script.js"></script>
+     <script src="cart.js"></script>
+     <script src="wishlist.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

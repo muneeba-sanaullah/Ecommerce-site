@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  min-height: 100%;
+  position: relative;
+}
+
+/* section-1 */
+
+.hero-banner {
+  background: url('https://images.unsplash.com/photo-1588848567248-8203ed798b4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fDE4MDBweCUyMHNob3Bpbmd8ZW58MHx8MHx8fDA%3D') no-repeat center center/cover;
+  min-height: 90vh;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  z-index: 1;
+}
+
+.hero-banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* section-2 */
+
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+  cursor: pointer;
+}
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.category-card img {
+  max-height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.category-card:hover img {
+  transform: scale(1.05);
+}
+
+/* section-3 */
+
+.sec3-imgs {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+/* Card hover lift effect */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img.sec3-imgs {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img.sec3-imgs {
+  transform: scale(1.05);
+}
+
+/* Button fade-in */
+.card .card-body .btn {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+.card:hover .card-body .btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover .btn:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.card:hover .btn:nth-child(2) {
+  transition-delay: 0.2s;
+}
+  
+.card:hover .btn:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.quantity{
+  display: none;
+}
+
+.card:hover .quantity{
+  display: inline;
+}
